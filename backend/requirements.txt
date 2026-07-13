@@ -1,10 +1,20 @@
+# fastapi
+# uvicorn[standard]
+# python-multipart
+# torch
+# torch-geometric
+# pennylane
+# opencv-python-headless
+# numpy
+# scikit-learn
+# pillow
+
+--extra-index-url https://download.pytorch.org/whl/cpu
 fastapi
 uvicorn[standard]
 python-multipart
-torch
+torch==2.3.0
 torch-geometric
 pennylane
 opencv-python-headless
 numpy
-scikit-learn
-pillow
