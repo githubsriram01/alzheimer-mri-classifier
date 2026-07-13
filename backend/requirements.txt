@@ -13,7 +13,7 @@
 fastapi
 uvicorn[standard]
 python-multipart
-torch==2.3.0
+torch==2.9.0+cpu
 torch-geometric
 pennylane
 opencv-python-headless
