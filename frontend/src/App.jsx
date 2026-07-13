@@ -4,7 +4,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell,
 } from 'recharts';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 
 const SEVERITY_ORDER = ['NonDemented', 'VeryMildDemented', 'MildDemented', 'ModerateDemented'];
 const CLASS_COLORS = {
